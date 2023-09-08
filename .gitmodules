@@ -1,11 +1,4 @@
-[submodule "submodules/lambda-copyzips"]
-	path = submodules/lambda-copyzips
-	url = https://github.com/aws-quickstart/lambda-copyzips.git
-	branch = main
 [submodule "docs/boilerplate"]
 	path = docs/boilerplate
 	url = https://github.com/aws-quickstart/quickstart-documentation-base-common.git
 	branch = main
-[submodule "lambda-copyzips"]
-	path = lambda-copyzips
-	url = git@github.com:aws-ia/lambda-copyzips.git
