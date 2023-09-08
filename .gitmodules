@@ -6,3 +6,6 @@
 	path = docs/boilerplate
 	url = https://github.com/aws-quickstart/quickstart-documentation-base-common.git
 	branch = main
+[submodule "lambda-copyzips"]
+	path = lambda-copyzips
+	url = git@github.com:aws-ia/lambda-copyzips.git
