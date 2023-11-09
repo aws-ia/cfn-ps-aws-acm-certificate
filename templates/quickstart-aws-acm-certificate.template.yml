@@ -95,7 +95,7 @@ Parameters:
       "Please enter a valid FQDN e.g. 'my.domain.name.com, seperated by commas"
     Default: ''
 Conditions:
-  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-quickstart']
+  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia']
   UserProvidedSAN: !Not
     - !Equals
       - !Join
