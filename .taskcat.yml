@@ -1,6 +1,6 @@
 project:
-  name: quickstart-aws-acm-certificate
-  owner: quickstart-eng@amazon.com
+  name: cfn-ps-aws-acm-certificate
+  owner: aws-ia@amazon.com
   package_lambda: true
   shorten_stack_name: true
   lambda_source_path: functions/source
@@ -24,8 +24,8 @@ project:
   parameters:
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3Prefix: quickstart-aws-acm-certificate/
-      HostedZoneID: overrride
+      QSS3Prefix: cfn-ps-aws-acm-certificate/
+      HostedZoneID: override
       DomainName: override
       SubjectAlternativeNames: override
 tests:
